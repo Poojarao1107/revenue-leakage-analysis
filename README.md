@@ -58,7 +58,7 @@ To analyze shipping and delivery inefficiency, some new columns were created:
 
 ![Table](Dashboard_image/Top_Shipping_Product_Categories.png)
 
-## 📈 Key Insights
+## Key Insights
 - Some categories have significantly higher shipping costs compared to product price.
 - A few low-cost products show very high shipping ratios.
 - "Unknown" also appears in the data, which indicates missing information in source data.
