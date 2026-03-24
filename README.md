@@ -59,17 +59,20 @@ To analyze shipping and delivery inefficiency, some new columns were created:
 
 ![Table](Dashboard_image/Top_Shipping_Product_Categories.png)
 
-## Key Insights
-- Some categories have significantly higher shipping costs compared to product price.
-- A few low-cost products show very high shipping ratios.
-- "Unknown" also appears in the data, which indicates missing information in source data.
-- Late deliveries exist and can impact customer experience.
+## Key Insights  
+- Approximately **3.4% of total orders** fall under the high shipping cost category, indicating a small but important segment contributing to potential revenue leakage
+- Some product categories consistently show higher shipping ratios compared to others, especially where product price is relatively low
+- Low-cost products tend to have **very high shipping ratios**, which makes them less efficient from a profitability perspective
+- Approximately **6.6% of orders were delivered late**, which can negatively impact customer experience
+- A small group of categories contributes more to overall shipping cost, suggesting that revenue leakage is not evenly distributed
+- The presence of **Unknown** category highlights missing data in the source dataset, which can affect analysis quality
 
 ## Recommendations
 - Optimize shipping strategy for categories with high shipping ratios
 - Re-evaluate pricing for low-cost products with high shipping costs
-- Improve logistics planning to reduce late deliveries
-- Investigate "Unknown" category data to improve overall data quality
+- Improve logistics planning to reduce the **6.6% late deliveries**
+- Focus on high shipping cost orders (around **3.4% of total orders**) as they contribute to potential revenue leakage
+- Investigate **Unknown** category data to improve overall data quality
 
 ## Author
 Pooja
