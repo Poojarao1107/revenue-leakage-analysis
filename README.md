@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is based on analyzing revenue leakage in an e-commerce dataset. The main idea was to understand where money is getting 'lost' due to high shipping costs, inefficient pricing, or delivery issues.
+This project is based on analyzing revenue leakage in an e-commerce dataset. The main idea was to understand where money is getting **lost** due to high shipping costs, inefficient pricing, or delivery issues.
 
 The project covers the full workflow — from raw data cleaning to building a final dashboard in Power BI.
 
@@ -15,28 +15,29 @@ The analysis is driven by the following key questions:
 - Which product categories contribute the most to revenue leakage due to shipping?
 
 ## Dataset Used
-The Olist Brazilian E-commerce dataset was used, focusing on the following tables:
+The **Olist Brazilian E-commerce dataset** was used, focusing on the following tables:
 - orders
 - order_items
 - products
 - product_category_name_translation
 
-After cleaning and merging, the final dataset created was: orders_pruducts_final table.
+After cleaning and merging, the final dataset created was: 
+**orders_pruducts_final** table.
 
 ## Data Cleaning & Preparation using (Python - Pandas)
 
 Key steps performed:
--Checked for duplicate records and handled missing values
+- Checked for duplicate records and handled missing values
 - Merged multiple tables into a single cleaned dataset
 - Translated product categories from Portuguese to English
 - Fixed data types for accurate analysis
-- Missing categories were labeled as "Unknown" instead of removing them
+- Missing categories were labeled as **Unknown** instead of removing them
 
 To analyze shipping and delivery inefficiency, some new columns were created:
-- shipping_ratio = freight_value / price
-- A high_shipping flag to identify problematic orders
-- delivery_delay indicator using delivery timestamps
-- delivery_days to calculate delivery duration
+- **shipping_ratio** = freight_value / price
+- A **high_shipping** flag to identify problematic orders
+- **delivery_delay** indicator using delivery timestamps
+- **delivery_days** to calculate delivery duration
 
 ## Tools Used
 - Python (Pandas) = Data cleaning and preparation
