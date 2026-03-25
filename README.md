@@ -14,8 +14,13 @@ The analysis is driven by the following key questions:
 - Which product categories have the most late deliveries?
 - Which product categories contribute the most to revenue leakage due to shipping?
 
-## Dataset Used
-The **Olist Brazilian E-commerce dataset** was used, focusing on the following tables:
+## Dataset infomation
+- Source: Olist Brazilian E-commerce Public Dataset
+- Data Period: 2016 – 2018
+- Size: ~100K orders
+- Description: Real-world, anonymized e-commerce dataset containing order, product, pricing, and delivery data from multiple sellers across Brazil.
+
+The analysis focuses on a subset of the dataset, specifically the following tables: 
 - orders
 - order_items
 - products
